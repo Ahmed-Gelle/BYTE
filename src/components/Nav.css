@@ -1,0 +1,33 @@
+
+.unorderd{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+    
+}
+
+.list{
+    list-style: none;
+    margin-right: 2rem;
+
+}
+ul li a{
+    text-decoration: none;
+  color: black;
+  transition: all 200ms ease-in;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+ul li a:hover{
+   color:blue;
+
+}
+
+.logolist{
+    list-style: none;
+    margin-right: auto;
+    margin-left: 2rem;
+    cursor: pointer;
+}
